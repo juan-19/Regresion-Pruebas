@@ -1,24 +1,25 @@
 #!/bin/bash
 
 clear all
+
+# Captura la localizacion actual del directorio en la variable dir
+dir=$(pwd)
+
+# Corre las pruebas de funcionamiento
 cd /home/juan/Documentos/cron
-./nombre
-
-while IFS=' ' read -r line || [[ -n "$line" ]]; do printf ""; done < nombre.txt
-
 ./pruebas
 
-for linea in $(cat file.txt);
+# Se verifica si se pasaron las pruebas
+for line in $(cat file.txt);
 
 do
 
 var=1
 
 if [ $linea -eq $var ]; then
-        cd /home/juan/Documentos/cron
-	git add "$line"
-#       git add .
-        git commit -m "committing new configuration changes!"
+        cd $dir
+        git add .
+        git commit -m "committing new changes!"
         git push origin master
         echo ""
         echo "git repo updated"
