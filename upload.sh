@@ -16,7 +16,7 @@ do
 
 var=1
 
-if [ $linea -eq $var ]; then
+if [ $line -eq $var ]; then
         cd $dir
         git add .
         git commit -m "committing new changes!"
