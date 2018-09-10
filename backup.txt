@@ -14,3 +14,4 @@
 --------------------------------------------------------------------------------------
 
 * * * * * /home/juan/Documentos/cron/script >> /home/juan/Documentos/cron/test.txt
+0 22 * * * /home/juan/Documentos/cron/script >> /home/juan/Documentos/cron/test.txt
