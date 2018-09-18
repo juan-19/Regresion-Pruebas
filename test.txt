@@ -1,5 +1,0 @@
-De https://github.com/nyon91/Proyecto-Regresi-n
- * branch            master     -> FETCH_HEAD
-Already up-to-date.
-Ejecutando las pruebas del Sun Aug 19 22:00:03 2018
-Ejecutando las pruebas del Thu Sep 6 12:44:59 2018
