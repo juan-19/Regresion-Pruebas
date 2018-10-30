@@ -14,7 +14,7 @@ int main(){
   //Se le pide ingresar una semilla al usuario para hacer mas aleatorio el numegro generado
   /*cout << "Ingrese una semilla para rand()" <<endl; //nueva linea
   cin >> semilla;*/
-  srand(4);
+  srand(6);
 
   //Se genera un numero aleatorio
   for(int i=0; i<10; i++){
