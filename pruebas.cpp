@@ -29,7 +29,7 @@ int main(){
   }
 
   //Se envia el numero al archivo file.txt
-  fs << num << endl;
+  fs << nomb << endl;
   //Se cierra el fichero
   fs.close();
 
